@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="header" class="bg-dark">
+
+
+    <ul id="nav" class="nav nav-pills ">
+      <li class="nav-item">
+        <a class="nav-link" href="homePage.html">Hauptmenü</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shopping.html">Einkauf</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Produkte</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="subcategory.html">Alle Kategorien</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="shoppingCart.html">
+          <img id="warenKorbImg" src="img/2018_03_WAU-Effekt_H_800x800_A1.gif" width="50" height="50"></a>
+
+      </li>
+
+
+    </ul>
+
+
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+
+      <div id="productBox1" class="box col-sm-5">
+
+
+        <img src="img/portakal.png" alt="..." class="img-thumbnail">
+
+
+
+
+      </div>
+
+
+
+      <div id="productBoxSpacing" class="box  col-1-sm"></div>
+
+
+
+
+
+
+
+      <div id="productBox2" class="box  col-sm-6">
+
+        <h3 id="productName">Product Name</h3>
+
+        <div class="rating">
+          ☆☆☆☆☆gnitaR
+        </div>
+
+        <h4 id="productPrice">Product Price</h4>
+        <div id="Section1" class="container-fluid  py-5" style="height: 400px;">
+
+          <h5 class="pt5">Beschreibung </h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe unde nesciunt sed assumenda velit adipisci
+            praesentium, quidem nobis ex quis mollitia ipsum, magni dignissimos at vitae? Illo iste accusamus tenetur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium itaque vitae magnam ipsum sapiente
+            veritatis explicabo praesentium, et quasi delectus.
+          </p>
+        </div>
+
+
+
+        <input type="text" id="sayi" value="0" /><br />
+        <input type="button" value="+" id="arttir" onclick="arttirma()" />
+        
+        <input type="button" value="-" id="azalt" onclick="azaltma()" />
+       
+       <br>
+       
+       
+        <button type="button" class="btn btn-success">Add to Cart</button>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer id="footer" class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <a href="#">Wir über uns</a><br><br>
+          <a href="#">Impressum</a><br><br>
+          <a href="#">AGB</a><br><br>
+          <a href="#">FAQ</a>
+
+        </div>
+        <div class="col-sm">
+          <a href="#">Datenschutz</a><br><br>
+          <a href="#">Cookie-Einstellungen</a><br><br>
+          <a href="#">Widerrufsrecht</a><br><br>
+          <a href="#">Link zur Europäischen Plattform für Online-Streitbeilegung</a>
+
+        </div>
+
+        <div class="col-sm">
+          <h4>Kontakt</h4>
+          <div class="col-sm">
+            <i class="fas fa-phone-square-alt"> 0800/253 11 00</i> <br>
+            <p>gebührenfrei</p>
+            <p>Mo-Fr : 09:00-17:00 Uhr</p>
+
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-envelope-square">info@onlineshopping.de</i>
+            <a id="contactFormular" href="#">Kontaktformular</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h4>Newsletter</h4>
+          <p>Nutzen Sie unsere exklusiven Vorteile für
+            Newsletter-Abonnenten</p>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+              <a id="sendEmail" href=""><i class="fas fa-paper-plane"></i></a>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

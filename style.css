@@ -1,0 +1,106 @@
+#header{
+    
+    height: 75px;
+    
+    
+}
+
+.nav-item{
+    margin-top: 20px;
+   
+}
+
+.nav-link{
+ color: rgb(253, 173, 0);
+}
+
+
+#cart{
+    margin-top: 32px;
+    
+
+}
+
+.container{
+    max-width: 1000px;
+    margin-top: 50px;
+    justify-content: right;
+}
+
+#btnShopping{
+    margin-top:60px;
+    background-color: rgb(210, 105, 30);
+
+}
+
+#footer{
+    height: 220px;
+    margin-top: 50px;
+   
+}
+
+
+a{
+    color: rgb(34, 32, 32);
+}
+a:hover{
+    text-decoration: none;
+  
+     
+ }
+
+
+ /*////////////Prudukt////////////////////////////*/
+
+ #productBox1{
+     height:auto;
+     
+    
+ }
+ #productBox2{
+    height:auto;
+}
+
+
+#productName{
+border: groove 4px;
+text-align: center;
+}
+
+#productPrice{
+    
+    text-align: center;
+    }
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+
+  .pt5{
+      text-align: center;
+      border: solid 1px;
+  }
+
+
+ /*////////////Shopping////////////////////////////*/
+ #sectionVegan, #sectionDairy,#sectionBakery,#sectionMeat,#sectionVegetable,#sectionFruit{
+    display:none;
+}
+
+#listVegetable, #listMeat,#listBakery,#listDairy,#listVegan,#listFruit{
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+}

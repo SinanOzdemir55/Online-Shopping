@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+  <div id="header" class="bg-dark">
+
+
+    <ul id="nav" class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="homePage.html">Hauptmenü</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shopping.html">Einkauf</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Produkte</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="subcategory.html">Alle Kategorien</a>
+      </li>
+
+      <li id="warenKorbImg" class="nav-item">
+        <a href="shoppingCart.html">
+          <img src="img/2018_03_WAU-Effekt_H_800x800_A1.gif" width="50" height="50"></a>
+      </li>
+  </ul>
+  <ul class="nav nav-pils justify-content-end border-bottom">
+
+  </ul>
+    
+  
+  </div>
+
+  <section class="bg-">
+    <div class="container">
+
+
+      <div class="carousel slide" id="CarouselEx" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#CarouselEx" data-slide-to="0" class="active"></li>
+          <li data-target="#CarouselEx" data-slide-to="1"></li>
+          <li data-target="#CarouselEx" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/limon.jpg" alt="First Slide" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/ananas.jpg" alt="Second Slide" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/portakal.jpg" alt="Third Slide" height="500px">
+          </div>
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#CarouselEx" role="button" data-slide="prev"><span
+            class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previos</span></a>
+        <a class="carousel-control-next" href="#CarouselEx" role="button" data-slide="next"><span
+            class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span></a>
+
+      </div>
+      <a href="shopping.html"><button id="btnShopping" type="button" class="btn btn-lg btn-block">Zum Einkaufen
+          >></button></a>
+
+    </div>
+
+
+
+
+  </section>
+
+  <footer id="footer" class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <a href="#">Wir über uns</a><br><br>
+          <a href="#">Impressum</a><br><br>
+          <a href="#">AGB</a><br><br>
+          <a href="#">FAQ</a>
+
+        </div>
+        <div class="col-sm">
+          <a href="#">Datenschutz</a><br><br>
+          <a href="#">Cookie-Einstellungen</a><br><br>
+          <a href="#">Widerrufsrecht</a><br><br>
+          <a href="#">Link zur Europäischen Plattform für Online-Streitbeilegung</a>
+
+        </div>
+
+        <div class="col-sm">
+          <h4>Kontakt</h4>
+          <div class="col-sm">
+            <i class="fas fa-phone-square-alt"> 0800/253 11 00</i> <br>
+            <p>gebührenfrei</p>
+            <p>Mo-Fr : 09:00-17:00 Uhr</p>
+
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-envelope-square">info@onlineshopping.de</i>
+            <a id="contactFormular" href="#">Kontaktformular</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h4>Newsletter</h4>
+          <p>Nutzen Sie unsere exklusiven Vorteile für
+            Newsletter-Abonnenten</p>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+              <a id="sendEmail" href=""><i class="fas fa-paper-plane"></i></a>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
